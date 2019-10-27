@@ -1,7 +1,7 @@
-#include<stdio.h> 
-int main()
+#include<stdio.h> //header file
+int main()//main
 {
-   int c, first, last, middle, n, search, array[100];
+   int c, first, last, middle, n, search, array[100];//variable_declaration
    printf("Enter number of elements:\n");
    scanf("%d",&n); 
    printf("Enter %d integers:\n", n);
@@ -28,3 +28,4 @@ int main()
    return 0;  
 }
 
+//end
