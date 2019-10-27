@@ -1,16 +1,15 @@
   
-#include <stdio.h> 
-  
-int search(int arr[], int n, int x) 
+#include <stdio.h> //header_file
+  int search(int arr[], int n, int x) 
 { 
     int i; 
-    for (i = 0; i < n; i++) 
-        if (arr[i] == x) 
+    for (i = 0; i < n; i++) //loop
+        if (arr[i] == x) //decision_making
             return i; 
     return -1; 
 } 
   
-int main(void) 
+int main(void) //main
 { 
     int arr[] = { 2, 3, 4, 10, 40 }; 
     int x = 10; 
@@ -21,3 +20,4 @@ int main(void)
                             result); 
     return 0; 
 } 
+//end
