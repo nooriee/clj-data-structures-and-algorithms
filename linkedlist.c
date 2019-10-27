@@ -1,6 +1,6 @@
 Live Demo
 
-#include <stdio.h>
+#include <stdio.h>//header_files
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
@@ -25,7 +25,7 @@ void printList() {
       ptr = ptr->next;
    }
 	
-   printf(" ]");
+   printf(" ]");//printing_statement
 }
 
 //insert link at the first location
@@ -87,7 +87,7 @@ struct node* find(int key) {
    while(current->key != key) {
 	
       //if it is last node
-      if(current->next == NULL) {
+      if(current->next == NULL) {//decision_making
          return NULL;
       } else {
          //go to next link
@@ -137,7 +137,7 @@ struct node* delete(int key) {
    return current;
 }
 
-void sort() {
+void sort() {//void_main
 
    int i, j, k, tempKey, tempData;
    struct node *current;
@@ -217,7 +217,7 @@ void main() {
 
    struct node *foundLink = find(4);
 	
-   if(foundLink != NULL) {
+   if(foundLink != NULL) {//decision_making
       printf("Element found: ");
       printf("(%d,%d) ",foundLink->key,foundLink->data);
       printf("\n");  
