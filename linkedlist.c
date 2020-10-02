@@ -14,7 +14,7 @@ struct node {
 struct node *head = NULL;
 struct node *current = NULL;
 
-//display the list
+//Display
 void printList() {
    struct node *ptr = head;
    printf("\n[ ");
@@ -28,7 +28,7 @@ void printList() {
    printf(" ]");
 }
 
-//insert link at the first location
+//Insert the code
 void insertFirst(int key, int data) {
    //create a link
    struct node *link = (struct node*) malloc(sizeof(struct node));
