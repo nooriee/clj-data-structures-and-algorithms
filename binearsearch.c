@@ -10,7 +10,7 @@ int main()
    printf("Enter the value to find:\n");
    scanf("%d", &search);
    first = 0;
-   last = n - 1;
+   last = n-1;
    middle = (first+last)/2;
    while (first <= last) {
       if (array[middle] < search)
