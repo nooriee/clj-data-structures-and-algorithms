@@ -7,7 +7,7 @@ int search(int arr[], int n, int x)
     for (i = 0; i < n; i++) 
         if (arr[i] == x) 
             return i; 
-    return -1; 
+    return -1; //badcode
 } 
   
 int main(void) 
