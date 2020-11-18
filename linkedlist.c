@@ -4,7 +4,7 @@ Live Demo
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
+//theheadcode
 struct node {
    int data;
    int key;
