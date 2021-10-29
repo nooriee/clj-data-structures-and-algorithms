@@ -1,6 +1,7 @@
   
 #include <stdio.h> 
-  
+#include <conio.h>
+#include <stdlib.h>
 int search(int arr[], int n, int x) 
 { 
     int i; 
